@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us | Eaturkish</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/about.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header d-flex align-items-center">
+      <div class="container">
+        <div class="header__wrapper d-flex justify-content-between">
+          <a href="index.html"><img src="./images/header-logo.svg" alt="logo" /></a>
+          <nav class="navbar navbar-expand-xl">
+            <ul class="d-none d-lg-flex align-items-lg-center">
+              <li><a class="navbar__link" href="menu.html">Menu</a></li>
+              <li><a class="navbar__link" href="News.html">News</a></li>
+              <li><a class="navbar__link" href="about.html">About us</a></li>
+              <li>
+                <a class="navbar__link" href="contact.html">Contact us</a>
+              </li>
+              <li><a class="navbar__btn" href="">Log in</a></li>
+            </ul>
+
+            <div class="toogle">
+              <button
+                class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header bg-danger">
+                  <div class="header__aside">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                      <img src="./images/header-logo.svg" alt="" />
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close bg-light"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <ul class="">
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a class="navbar__btn" href="">Log in</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <h2>About Us</h2>
+            <div class="spoon">
+              <img src="./images/spoon.svg" alt="">
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+              pharetra adipiscing ultrices vulputate posuere tristique. In sed
+              odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Quis pharetra adipiscing ultrices
+              vulputate posuere tristique. In sed odio nec aliquet eu proin
+              mauris et.
+            </p>
+            <img src="./images/about.svg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+              pharetra adipiscing ultrices vulputate posuere tristique. In sed
+              odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Quis pharetra adipiscing ultrices
+              vulputate posuere tristique. In sed odio nec aliquet eu proin
+              mauris et. It is a long established fact that a reader will be
+              distracted by the readable content of a page when looking at its
+              layout.
+            </p>
+            <div class="btn__logo">
+              <img src="./images/btn-logo.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+            <div class="footer__wrapper d-flex flex-column justify-content-end align-items-center">
+                <div class="footer__wrapper-1 d-flex justify-content-center align-items-center flex-column p-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h5>Newsletter</h5>
+                    <h1 style="text-align: center;">Subscribe to Our Newsletter</h1>
+                    <p>And never miss latest Updates!</p>
+                    <form action="" class="display-flex flex-column flex-lg-row ">
+                        <input placeholder="Email Address" type="text" name="" id="">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer__wrapper-2 mb-5 row h-50 d-flex justify-content-evenly align-items-end">
+                    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <h5>Contact Us</h5>
+                        <p>9 W 53rd St, London, NY 10019, UK</p>
+                        <p>+1 212-344-1230
+                            +1 212-555-1230
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/header-logo.svg" alt="">
+                        <p style="text-align: center;">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <div class="socials d-flex gap-3 text-white flex-row justify-content-between">
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <h5>Working Hours</h5>
+                        <p>Monday-Friday:
+                            08:00 am -12:00 am</p>
+                        <p>Saturday-Sunday:
+                            07:00am -11:00 pm</p>
+                    </div>
+                </div>
+                <p style="color: #ffff;">2022 Pop online. All Rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </main>
+  </body>
+</html>

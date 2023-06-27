@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding: 15px;
+  background-color: var.$primary-color;
+  ul {
+    gap: 40px;
+    .navbar__link {
+      color: #ffff;
+    }
+    .navbar__btn {
+      @include mxn.primary-btn;
+    }
+  }
+}
+
+.menu {
+  #pills-tab {
+    padding: 10px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: none;
+  }
+}
+
+

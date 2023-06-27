@@ -1,0 +1,40 @@
+@use "mixins" as mxn;
+@use "variables" as var;
+@use "function" as func;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+.about {
+  .about__wrapper {
+    margin-top: 170px;
+    text-align: center;
+    h2 {
+      font-size: 64px;
+      font-weight: 500;
+      font-family: sans-serif;
+      line-height: 130%;
+      letter-spacing: 1.92px;
+      text-transform: capitalize;
+      color: var.$black-color;
+    }
+    p {
+      position: relative;
+      margin: 40px auto 30px;
+      display: flex;
+      max-width: 720px;
+      flex-direction: column;
+      flex-shrink: 0;
+      font-size: 20px;
+      font-family: Open;
+      letter-spacing: 0.8px;
+      color: var.$black-color;
+      opacity: 0.800000011920929;
+    }
+    .btn__logo {
+      margin-bottom: 130px;
+      text-align: end;
+    }
+    img{
+      max-width: 100%;
+    }
+  }
+}
